@@ -1,0 +1,86 @@
+h1 {
+  color: green;
+  font-size: 30px;
+}
+
+img {
+  width: 200px;
+}
+
+footer p {
+font-size: 10px;
+text-align: center;
+font-weight: bold;
+}
+
+#intro { /*id*/
+  font-size: 20px;
+}
+
+
+.in-stock { /*class*/
+  color:red;
+}
+
+.sold-out {
+  text-decoration: line-through;
+  color:purple;
+}
+
+strong {
+  border: 4px dashed red;
+}
+
+p.classformat {
+  line-height: 200%;
+}
+
+ul {
+/*  list-style-type: circle; */
+  list-style-type: square;
+/*  list-style-type: upper-roman;
+  list-style-type: lower-alpha;
+*/
+}
+
+div {
+  display: block;
+  border: 4px solid black;
+  background: red;
+  padding: 10px;
+  margin: 20px;
+  font-size: 30px;
+  font-family: 'Indie Flower', cursive;
+}
+
+.note {
+  color: orange;
+}
+
+/* The animation code */
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+/* The element to apply the animation to */
+div {
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+/* The animation code */
+@keyframes example2 {
+    from {margin-left: -10px;}
+    to {margin-left: 40px;}
+}
+
+/* The element to apply the animation to */
+img {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: example2;
+    animation-duration: 4s;
+}
